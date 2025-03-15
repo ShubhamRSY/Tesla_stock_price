@@ -1,5 +1,22 @@
 # 🚀 Tesla Stock Price Prediction
 
+## 🌟 Project Motivation & Goal
+Stock prices are volatile and influenced by various factors such as market trends, company performance, and global events. This project aims to analyze **Tesla's stock price movements**, identify **patterns**, and build **forecasting models** to predict future stock prices. 
+
+### **🎯 Objective**
+- Understand Tesla's historical stock price trends.
+- Determine whether the stock price is **stationary or non-stationary**.
+- Decompose stock price data into **trend, seasonality, and noise**.
+- Apply **multiple forecasting models** to predict future prices.
+- Compare model performance and select the best one for stock price forecasting.
+
+### **🔍 Key Solutions & Outcomes**
+✅ Identified **long-term stock price trends and seasonality patterns**.  
+✅ Used **Augmented Dickey-Fuller (ADF) test** to check for stationarity.  
+✅ Applied **SARIMA, LSTM, XGBoost, Prophet, and NeuralProphet** for forecasting.  
+✅ Developed a **hybrid model (LSTM + XGBoost + Prophet)** that outperformed individual models.  
+✅ Provided **next steps** for improving accuracy and deploying the model in a real-world scenario.  
+
 ## 📈 A deep dive into forecasting Tesla's stock price using Machine Learning and Deep Learning.
 
 ## 📌 Overview
@@ -126,13 +143,4 @@ pip install -r requirements.txt
 ✅ **LSTM captured trends well but required significant training time.**  
 ✅ **XGBoost provided fast and accurate results.**  
 ✅ **Prophet and NeuralProphet handled seasonality effectively.**  
-✅ **The Hybrid Model (LSTM + XGBoost + Prophet) gave the best overall predictions.**  
-
-## 📌 Next Steps & Improvements
-🔹 **Improve Feature Engineering** – Include macroeconomic indicators (interest rates, inflation, etc.).  
-🔹 **Optimize Model Parameters** – Perform **hyperparameter tuning** for better accuracy.  
-🔹 **Deploy the Model** – Use **Flask, FastAPI, or Streamlit** to build an interactive dashboard.  
-🔹 **Test on Other Stocks** – Extend the approach to different stocks or cryptocurrencies.  
-
-## 📢 Contributing
-Feel free to fork this repository, create a branch, and submit a PR! 🚀
+✅ **The Hybrid Model (LSTM + XGBoost + Prophet) gave the best overall predictions.**
