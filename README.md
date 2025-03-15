@@ -1,5 +1,9 @@
 # 🚀 Tesla Stock Price Prediction
 
+## Tesla Stock Price Visualization
+
+![Tesla Stock Chart](images/Tesla.webp)
+
 ## 🌟 Project Motivation & Goal
 Stock prices are volatile and influenced by various factors such as market trends, company performance, and global events. This project aims to analyze **Tesla's stock price movements**, identify **patterns**, and build **forecasting models** to predict future stock prices. 
 
