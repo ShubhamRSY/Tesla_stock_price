@@ -3,9 +3,6 @@
 
 ## Tesla Stock Price Visualization
 
-### Standard Markdown (Default Size)
-![Tesla Stock Chart](Tesla.webp)
-
 ### Resized Image Using HTML
 <img src="Tesla.webp" alt="Tesla Stock Chart" width="600">
 
