@@ -1,9 +1,14 @@
 # 🚀 Tesla Stock Price Prediction
 
+
 ## Tesla Stock Price Visualization
 
+### Standard Markdown (Default Size)
 ![Tesla Stock Chart](Tesla.webp)
-<img src="images/Tesla.webp" alt="Tesla Stock Chart" width="600">
+
+### Resized Image Using HTML
+<img src="Tesla.webp" alt="Tesla Stock Chart" width="600">
+
 
 
 ## 🌟 Project Motivation & Goal
